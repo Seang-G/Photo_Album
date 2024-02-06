@@ -19,7 +19,7 @@ const sortMap = {
 
 export default function Album() {
   const params = useParams();
-  const albumId = isNaN(params.album)?-1:params.albumId;
+  const albumId = isNaN(params.albumId)?-1:params.albumId;
   const [photos, setPhotos] = useState([]);
   const [currentAlbum, setCurrentAlbum] = useState({});
   const [checkedPhotos, setCheckedPhotos] = useState([]);

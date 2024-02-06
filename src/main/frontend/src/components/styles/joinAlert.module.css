@@ -1,0 +1,13 @@
+.invalidCover {
+  position: relative;
+  translate: 530px -50px;
+}
+
+.invalid {
+  position: absolute;
+  max-width: 500px;
+  border-radius: 10px;
+  padding: 5px 20px;
+  background-color: rgba(188, 31, 0, 0.778);
+  border: 5px solid rgba(226, 24, 17, 0.842);
+}

@@ -1,0 +1,81 @@
+.login {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10%;
+  flex-direction: column;
+  align-items: stretch;
+  width: 500px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.1rem;
+}
+
+.login input {
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-left: 20px;
+  font-size: 1.2em;
+  
+}
+
+.login input::placeholder {
+  font-size: 0.8em;
+}
+
+.eye {
+  position: relative;
+  translate: 460px -35px;
+  cursor: pointer;
+  height: 0px;
+  width: 0px;
+}
+
+.titleCon {
+  text-align: center;
+}
+
+.title {
+  display: inline-block;
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.8em;
+  color: rgb(164, 74, 33);
+}
+
+.checkCon {
+  display: flex;
+  height: 20px;
+  margin-top: 15px;
+  justify-content: left;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.checkCon input {
+  margin-top: 0px;
+  margin-right: 5px;
+}
+
+.loginButton {
+  background-color: rgb(164, 74, 33);
+  height: 45px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 1em;
+  font-weight: 700;
+  color: white;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.login a {
+  font-size: 0.8em;
+  font-weight: 400;
+  margin-top: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+

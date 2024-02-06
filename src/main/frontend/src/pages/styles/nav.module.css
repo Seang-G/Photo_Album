@@ -1,0 +1,64 @@
+.nav {
+  height: 50px;
+
+  padding: 15px 20px 30px 20px;
+  border-bottom: 2px solid lightgrey;
+
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.nav h1 {
+  display: inline;
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.7em;
+  color: rgb(164, 74, 33);
+  cursor: pointer;
+}
+
+.symbol {
+  font-size: 3.3em;
+  translate: 0 5px;
+  color: rgb(164, 74, 33);
+  cursor: pointer;
+}
+
+.navAccount{
+  width: 200px;
+  height: 120px;
+
+  position: absolute;
+  right: 20px;
+  top: 90px;
+  
+  background-color: rgb(255, 255, 255);
+  border: 1px solid lightslategray;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Outfit', 'Noto Sans KR', sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+
+}
+
+.navAccount hr {
+  width: 70%;
+}
+
+.logout {
+  width: 70%;
+  height: 30%;
+  border-radius: 10px;
+  
+  background-color:brown;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+
+}

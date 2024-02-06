@@ -1,0 +1,68 @@
+.albumList {
+  width: 95%;
+  margin: 0 auto;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.albumList h1{
+  color: rgb(144, 40, 40);
+}
+
+.upBar > h2 {
+  color: rgba(164, 74, 33);
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+}
+
+.albums {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 98%;
+}
+
+.albums > div {
+  margin: 10px 30px
+}
+
+.upBar {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.upBar > div > span {
+  color: rgba(164, 74, 33);
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.orderArrow {
+  translate: 0 5px;
+}
+
+.upBar > div > div {
+  display: inline;
+  margin-right: 15px;
+  color: lightslategrey;
+  font-size: 1em;
+}
+
+.search {
+  translate: 30px 5px;
+}
+
+.upBar input {
+  height: 33px;
+  width: 400px;
+  padding-left: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+  border-radius: 5px;
+  border: 1px solid lightslategray;
+}

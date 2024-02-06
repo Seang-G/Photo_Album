@@ -1,0 +1,37 @@
+.photo {
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  /* top: -276px;
+  left: -1px; */
+  /* border: 1px solid black; */
+  text-align: left;
+  transition: all 0.3s;
+  
+  /* padding: 5px; */
+}
+.hoverFunction {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: rgba(56, 31, 8, 0.608);
+}
+
+.radio {
+  position: relative;
+  /* translate: 3px 3px; */
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+
+.detail {
+  /* position: relative; */
+  /* translate: 0px 190px; */
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  cursor: pointer;
+}

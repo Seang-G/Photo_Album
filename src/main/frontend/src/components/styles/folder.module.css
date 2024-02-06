@@ -1,0 +1,136 @@
+.cover span{
+  font-family: 'Outfit', sans-serif;
+  font-size: 1em;
+  color: rgb(177, 129, 89);
+  position: absolute;
+  translate: 10px -35px;
+}
+.cover span strong {
+  font-size: 1.3em;
+  color: rgb(164, 74, 33);
+}
+
+.folder {
+  background-color: white;
+  border: 1.5px solid lightslategray;
+  border-radius: 0 10px 10px 10px;
+  display: inline-block;
+  height: 230px;
+  width: 230px;
+  position: relative;
+}
+
+.folderTop {
+  border-left: 50px solid rgb(239, 238, 237);
+  border-bottom: 70px solid rgb(236, 228, 221);
+  border-right: 50px solid transparent;
+  border-radius: 10px 0 0 0;
+  width: 30px;
+  position: relative;
+  translate: 0px 20px;
+}
+
+.create {
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+  border: 1px solid lightslategray;
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+  margin: 5% auto;
+  cursor: pointer;
+}
+
+.create strong {
+  font-size: 6.5em;
+  font-weight: 100;
+  color: rgb(164, 74, 33);
+}
+
+.thumbs {
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+  border: 1px solid lightslategray;
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+  margin: 5% auto;
+}
+
+.creating {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: white;
+  width: 50%;
+  height: 20%;
+  margin: 20% auto;
+  padding: 1px 20px 40px 20px;
+  color: rgb(164, 74, 33);
+  position: relative;
+  z-index: 2;
+}
+
+.albumName {
+  text-align: center;
+  color:dimgray;
+}
+
+.albumName h3 {
+  margin: 0;
+}
+
+.thumbs {
+  display: grid;
+  /* margin: 0 auto; */
+  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  grid-template-columns: 90px 90px;
+  grid-template-rows: 90px 90px;
+  gap: 5px;
+}
+
+.thumbs div {
+  width: 100%;
+  height: 100%;
+}
+
+.thumbs img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.action {
+  position: relative;
+  height: 0;
+}
+
+.action>div:nth-child(1) {
+  width: 65%;
+  height: 35px;
+  margin: 0 auto;
+  border: 3px solid rgb(230, 134, 78);
+  border-radius: 5px;
+  padding-top: 3px;
+
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: rgb(164, 74, 33);
+
+  background-color: white;
+  
+  text-align: center;
+  translate: 0px -170px;
+
+  cursor: pointer;
+}
+
+.action>div:nth-child(2) {
+  text-align: right;
+  translate: 200px -110px;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: 600;
+  font-size: 1.8em;
+  cursor: pointer;
+}

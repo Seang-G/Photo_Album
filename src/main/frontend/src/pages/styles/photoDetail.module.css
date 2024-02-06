@@ -1,0 +1,92 @@
+.photoDetail {
+  font-family: 'Noto Sans KR', 'Outfit', sans-serif;
+  display: flex;
+  justify-content:space-between;
+}
+
+.photoDetail > hr {
+  background-color:lightgrey;
+  width: 3px;
+  border: 0;
+}
+
+.photoDetail div {
+  /* border: 1px solid purple; */
+}
+
+.back {
+  color: rgb(230, 134, 78);
+  font-weight: 500;
+  cursor: pointer;
+  width: 15%;
+  height: fit-content;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.back span {
+  translate: 0 5px;
+}
+
+.imgCon {
+  padding: 10px;
+  /* margin: 0 auto; */
+  text-align: center;
+  width: 60%;
+  min-width: 60%;
+}
+
+.imgCon img {
+  margin-top: 30px;
+  width: 95%;
+  min-width: 95%;
+}
+
+.symbols {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 10%;
+  padding-top: 20px;
+  
+  font-size: 2em;
+  color: rgb(164, 74, 33);
+}
+
+.symbols > div {
+  margin: 15px 0;
+  cursor: pointer;
+} 
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: flex-start;
+  padding-left: 30px;
+  width: 23%;
+}
+
+.info > div {
+  width: 80%;
+}
+
+.info hr{
+  width: 100%;
+  background-color: lightgrey;
+  height: 2px;
+  margin: 0;
+  border: 0;
+}
+
+.description {
+  color: rgb(164, 74, 33);
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-top: 50px;
+}
+
+.about {
+  color: lightslategray;
+}

@@ -1,0 +1,95 @@
+.upload {
+  padding: 10px 50px;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0 auto;
+}
+
+.upload input {
+  display: none;
+}
+
+.inputBox {
+  width: 98%;
+  height: 600px;
+
+  margin: 0 auto;
+  padding: 15px 20px;
+  border-radius: 5px;
+
+  color:rgb(119, 136, 153);
+}
+
+.info {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+.info >span {
+  font-size: 100px;
+}
+
+.info >div {
+  margin-bottom: 40px;
+
+}
+
+.info >label {
+  text-decoration:underline;
+  cursor: pointer;
+}
+
+.thumCon {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.thumb {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thumb > div {
+  position: absolute;
+  translate: 170px 5px;
+  background-color: rgb(68, 68, 68);
+  color: aliceblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.upload button {
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin: 50px auto;
+  border: 0;
+  background-color: rgb(230, 134, 78);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.back {
+  color: rgb(230, 134, 78);
+  font-weight: 500;
+  font-size: 1.3em;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.back span {
+  translate: 0 5px;
+}
+

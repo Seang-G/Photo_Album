@@ -45,7 +45,7 @@ public class AlbumService {
             albumDto.setCount(photoRepository.countByAlbum_AlbumId(albumId));
             return albumDto;
         }
-        else throw new NoSuchElementException(String.format("해당 앨범이 존재하지 않습니다.", albumId));
+        else throw new NoSuchElementException(String.format("앨범이 존재하지 않습니다.", albumId));
     }
 
 //    public AlbumDto getAlbum(String albumName) throws RuntimeException, AccessDeniedException{

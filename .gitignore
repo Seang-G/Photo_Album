@@ -38,3 +38,6 @@ npm-debug.log
 .nyc
 .env
 .DS_Store
+
+#secret file
+application.properties

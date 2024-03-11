@@ -24,6 +24,7 @@
 ![메인](https://github.com/Seang-G/Photo_Album/assets/61152284/890d1c8d-d766-4ab4-b6a9-615db8d2ec05)
 - 서비스를 시작하면 가장 먼저 보이는 페이지
 - 로그인 (아이디 저장 가능)
+- JWT토큰을 이용한 인증
   
 <br />
 
